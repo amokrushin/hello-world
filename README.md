@@ -22,10 +22,10 @@ Edit ENV variables in the `ecosystem.config.js` file, as minimum replace `PGPASS
 
 Configure nginx, sample config provided in files
 
-* hello-world.nginx.conf
-* hello-world.nginx-ssl.conf
+* [`hello-world.nginx.conf`](https://github.com/amokrushin/hello-world/blob/master/hello-world.nginx.conf)
+* [`hello-world.nginx-ssl.conf`](https://github.com/amokrushin/hello-world/blob/master/hello-world.nginx-ssl.conf)
 
-replace `server_name` with actual one
+replace [`server_name`](https://github.com/amokrushin/hello-world/blob/master/hello-world.nginx.conf#L3) with actual one
 
 ```bash
     # test nginx configuration
