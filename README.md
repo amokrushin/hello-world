@@ -12,6 +12,7 @@ git clone https://github.com/amokrushin/hello-world
 ### Install project dependensies
 
 ```bash
+cd hello-world
 npm i --production
 ```
 
