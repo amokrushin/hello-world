@@ -28,7 +28,7 @@ Configure nginx, sample config provided in files
 replace [`server_name`](https://github.com/amokrushin/hello-world/blob/master/hello-world.nginx.conf#L3) with actual one
 
 ```bash
-    # start nginx server if not started yet
+    # start nginx server if it is not running yet
     sudo service nginx start
     # test nginx configuration
     sudo nginx -t
