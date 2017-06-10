@@ -5,5 +5,5 @@ const path = require('path');
 
 const opts = cwd => ({ stdio: 'inherit', cwd: path.join(__dirname, cwd) });
 
-execSync('yarn', opts('services/backend'));
-execSync('yarn', opts('services/frontend'));
+execSync('npm i', opts('services/backend'));
+execSync('npm i', opts('services/frontend'));
