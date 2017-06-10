@@ -68,6 +68,7 @@ npm stop
 
 ```bash
 npm restart
+# either
 npm run reload
 ```
 
