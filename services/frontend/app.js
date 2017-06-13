@@ -23,6 +23,7 @@ app.get('/users', async (req, res, next) => {
             path: req.url,
         },
         (response) => {
+            res.status(response.statusCode);
             response.pipe(res)
         })
         .on('error', (err) => {
@@ -43,6 +44,7 @@ app.get('/user/:id', async (req, res, next) => {
             path: req.url,
         },
         (response) => {
+            res.status(response.statusCode);
             response.pipe(res)
         })
         .on('error', (err) => {
