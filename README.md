@@ -40,7 +40,7 @@ replace [`server_name`](https://github.com/amokrushin/hello-world/blob/master/he
 
 ```bash
 # pull postgres docker image
-docker pull postgres:latest
+docker pull postgres:alpine
 
 # run postgres container
 docker run --rm --name hello-world-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres:alpine
